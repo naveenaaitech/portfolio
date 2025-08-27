@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    background-color: #1f2235;
+    padding: 20px 0;
+}
+
+.nav .info1 h1 , .container-fluid H1{
+    color: #e54650;
+    font-weight: bold;
+}
+
+.nav .info2 ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav .info2 ul li a {
+    color: #e54650;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.nav .info2 .info2_container {
+    margin-top: 10px;
+}
+.info2_container ul li{
+    font-size: 20px;
+}
+.alt a{
+    color: #e54650;
+    font-size: 28px !important;
+    text-decoration: none;
+}
+/* .info2_container{
+    padding-left: 50px;
+} */
+.sect2 {
+    width: 100%;
+    height: auto;
+    background-color: #1f2235;
+}
+
+.sect2_row1_col1 {
+    position: relative;
+    padding: 50px 20px; /* Padding for better responsiveness */
+}
+
+.sect2_row1_col1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.sect2_col1_cont {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.sect2 .sect2_col1_cont h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #e54650;
+}
+
+.col-6 h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: #e54650;
+}
+
+.sect2 .sect2_col1_cont h1,.sect3_col2_cont h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+}
+
+.sect2 .sect2_col1_cont p ,.sect3_col2_cont p {
+    font-size: 20px;
+    color: white;
+}
+
+.img {
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sect3 ,.container-fluid{
+    overflow: visible; /* Ensure content is not being hidden */
+    height: auto; /* Allow the section to expand based on content */
+    background-color: #1f2235;
+    padding-bottom: 50px;
+    color: white;
+    
+}
+
+
+
+.sect3 .sect3_col2 {
+    overflow: visible; /* Ensure columns are not hiding content */
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+
+
+.sect3 .sect3_row1 .sect3_col1 img {
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto; 
+}
+.imaginsec{
+    width: 300px;
+    margin-top:8%;
+}
+.sect3 .sect3_row1 .sect3_col1{
+    padding-top: 50px;
+}
+
+.sect3 .sect3_row1 .sect3_col2 .sect3_col2_cont { 
+    margin-top: 200px;
+    padding-left: 50px; /* Add padding-left instead of margin */
+    z-index: 10;
+    position: relative;
+    padding: 20px; /* Additional internal padding */
+    border-radius: 10px;
+    
+}
+.sect3 .sect3_row1 .sect3_col2 .sect3_col2_cont{
+    margin-left: 100px;
+}
+
+.sect3 .sect3_row1 .sect3_col2 .sect3_col2_cont .tb {
+    margin-left: 50px;
+}
+
+
+.sect3 .sect3_row1 .sect3_col2 .tb {
+    margin-top: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.tb th {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+td{
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.firstcol{
+    margin-top: 50px;
+    padding-right: 50px;
+    border-right: 2px solid white;
+}
+.firstcol h2,.firstcol h3{
+  color: #e54650;
+  font-size: 28px;
+}
+.firstcol p,.firstcol ul li{
+    font-size: 20px;
+  }
+.secondcol{
+    margin-top: 50px;
+    padding-left: 50px ;
+}
+.secondcol h2,.secondcol h3{
+    color: #e54650;
+    font-size: 28px;
+  }
+  .secondcol p,.secondcol ul li{
+      font-size: 20px;
+    }
+    .firstcol h2 ,.secondcol h2{
+        padding-bottom: 20px;
+    }
+.col-lg-5 .col-md-12 .sect2_row1_col2 .img .img-fluid .academyimg{
+    padding-bottom: 1000px;
+}
